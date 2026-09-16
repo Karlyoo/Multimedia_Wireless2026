@@ -18,7 +18,7 @@
 | Item | Information |
 |---|---|
 | Project Title | Improving Spatial Generalization of SRS-Based Indoor Localization Using a Lightweight MLP |
-| Student ID / Name | |
+| Student ID / Name |M11502203 Ping-Yu,Hsieh |
 | Git Repository / Project Link | |
 | Planning Approval Date | YYYY-MM-DD (The project starts being evaluated after approval by both instructors.) |
 
@@ -51,7 +51,7 @@
   - 16 normalized Power Delay Profile (PDP) features
   - 8 inter-antenna phase features
   - 8 received-power and spatial-symmetry features
-- The primary experiment uses data from the same 6 m \(\times\) 6 m indoor laboratory as the reference paper.
+- The primary experiment uses data from the same 6m* 6m indoor laboratory as the reference paper.
 - All frames associated with the same coordinate are assigned to only one data partition in the location-grouped and spatial evaluations.
 - The same feature vectors, partitions, and evaluation metrics are used for RF and MLP.
 - This project evaluates within-environment spatial generalization. It does not claim cross-room, cross-device, or cross-day generalization.
@@ -71,13 +71,13 @@
 
 ### Input Parameters
 
-- \(\mathbf{x} \in \mathbb{R}^{32}\): processed SRS feature vector
-- \(\mathbf{y}=(x,y)\): ground-truth two-dimensional coordinate
+- 32-D: processed SRS feature vector
+- (x,y): ground-truth two-dimensional coordinate
 - Split type: random, location-grouped, or spatially separated
 - MLP configuration:
   - Input layer: 32 features
   - Hidden layers: 64 and 32 neurons with ReLU activation
-  - Output layer: 2 neurons for \((\hat{x},\hat{y})\)
+  - Output layer: 2 neurons for (x,y)
   - Training parameters: learning rate, batch size, number of epochs, and early-stopping patience
 - RF baseline configuration:
   - 100 trees
@@ -86,8 +86,8 @@
 
 ### Output Parameters
 
-- \((\hat{x},\hat{y})\): estimated two-dimensional coordinate
-- \(e_i\): Euclidean localization error for sample \(i\)
+- (x,y): estimated two-dimensional coordinate
+- e_i: Euclidean localization error for sample i
 - Mean, median, RMSE, and 90th-percentile localization error
 - Percentage of predictions within 0.5 m and 1.0 m
 - Model size, training time, and per-sample inference latency
@@ -129,19 +129,6 @@ The normalization parameters are fitted only on the training partition and then 
 - A final report describing the method, results, limitations, and conclusions
 
 ### Validation Method
-
-For each sample, define the two-dimensional Euclidean localization error as
-
-\[
-e_i = \sqrt{(\hat{x}_i-x_i)^2+(\hat{y}_i-y_i)^2}.
-\]
-
-The primary accuracy metric is mean localization error:
-
-\[
-\mathrm{Mean\ Error}=\frac{1}{N}\sum_{i=1}^{N} e_i.
-\]
-
 RMSE, median error, 90th-percentile error, the empirical error CDF, and the percentages below 0.5 m and 1.0 m will also be reported. Each model comparison will use identical data partitions. Results over at least five random seeds will be reported as mean and standard deviation when training randomness applies.
 
 ### Experiment Scenario 1: Reference Baseline Reproduction
