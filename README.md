@@ -39,9 +39,9 @@ have an LLM review it, and commit the feedback.
 
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a1--background-study-notes)
 - Submissions:
-  - [ ] [Study Note]() — five-minute presentation, how to read a paper, and your project proposal
+  - [ ] [Study Note](https://github.com/Karlyoo/Multimedia_Wireless2026/tree/main/A1) — five-minute presentation, how to read a paper, and your project proposal
   - [ ] [Slides](https://docs.google.com/presentation/d/1ad6f84Sg2GO969FbYZmZrRM4GB2siC0ZCy5N41G06nA/edit?usp=sharing)
-  - [ ] [Rehearsal Presentation](path to recording + LLM feedback) — Speaker Coach recording and the LLM review
+  - [ ] [Rehearsal Presentation](https://drive.google.com/drive/folders/1K7nD0jXtXTcHjZYyhzy7J6HCSpL75bed) — Speaker Coach recording and the LLM review
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
 
 ### A2 — ns-3 Setup & First Scenario
