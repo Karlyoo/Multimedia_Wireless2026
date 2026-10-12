@@ -55,7 +55,7 @@ have an LLM review it, and commit the feedback.
   - [ ] [Result from your own run](A2/study_note.md#5-result-from-my-own-run) — 6,000
   packets sent and received, 0% loss, 1.0816 ms mean/max delay, 80 kbps,
   traces, plots, and PCAP captures.
-  - [ ] [Rehearsal Presentation](path to recording + LLM feedback)
+  - [ ] [Rehearsal Presentation](https://drive.google.com/drive/u/0/folders/1T-f5xERyI-J50wVEzm1GRMWEarNDUEpG)
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
 
 ### A3 — Literature Review
