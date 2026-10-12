@@ -1,0 +1,11 @@
+metric,value,unit
+packets_sent,6000,packets
+packets_received,6000,packets
+packet_loss_rate,0.000000,ratio
+mean_delay,1.081600,ms
+max_delay,1.081600,ms
+delay_within_10ms,1.000000,ratio
+mean_pose_age,1.081600,ms
+mean_send_interval,10.000000,ms
+ip_packet_size,100,bytes
+offered_ip_rate,80000.000000,bps
