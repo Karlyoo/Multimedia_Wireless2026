@@ -17,7 +17,7 @@
 3. Department:ECE
 4. Student status: NTUST Student 
 5. Path:  Advanced — own topic
-6. Topic: Improving Spatial Generalization of SRS-Based Indoor Localization
+6. Topic: Improving Spatial Generalization of Simulated Uplink Channel-Fingerprint Localization
 
 ## 2. Assignments
 
@@ -62,8 +62,11 @@ have an LLM review it, and commit the feedback.
 
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3--literature-review)
 - Submissions:
-  - [ ] [Study Note](path to your .md file) — per paper: problem / importance / challenges, system model (environment, I/Ps, O/Ps, metrics), experimental settings for ns-3
-  - [ ] [Revised project proposal](path to specific section in your study note) — what changed from A1 and why
+  - [ ] [Study Note](A3/study_note.md) — uplink massive-MIMO paper: problem / importance / challenges, system model, published results and ns-3 reproduction settings
+  - [ ] [Revised project proposal](A3/proposal.md) — [what changed from A1 and why](A3/study_note.md#5-revision-of-the-a1-project-proposal)
+  - [ ] [ns-3.48 environment and verification](A3/environment.md) — setup, commands and channel-readiness evidence
+  - [ ] [10-minute slides](A3/A3-literature-review.pptx) — [PDF](A3/A3-literature-review.pdf) / [Chinese speaker notes](A3/presentation.md)
+  - [ ] [English slides](A3/A3-literature-review-en.pptx) — [PDF](A3/A3-literature-review-en.pdf) / [English speaker notes](A3/presentation-en.md)
   - [ ] [Rehearsal Presentation](path to recording + LLM feedback)
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
 
