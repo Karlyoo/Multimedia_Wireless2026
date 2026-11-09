@@ -62,13 +62,11 @@ have an LLM review it, and commit the feedback.
 
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a3--literature-review)
 - Submissions:
-  - [ ] [Study Note](A3/study_note.md) — uplink massive-MIMO paper: problem / importance / challenges, system model, published results and ns-3 reproduction settings
-  - [ ] [Revised project proposal](A3/proposal.md) — [what changed from A1 and why](A3/study_note.md#5-revision-of-the-a1-project-proposal)
-  - [ ] [ns-3.48 environment and verification](A3/environment.md) — setup, commands and channel-readiness evidence
-  - [ ] [10-minute slides](A3/A3-literature-review.pptx) — [PDF](A3/A3-literature-review.pdf) / [Chinese speaker notes](A3/presentation.md)
-  - [ ] [English slides](A3/A3-literature-review-en.pptx) — [PDF](A3/A3-literature-review-en.pdf) / [English speaker notes](A3/presentation-en.md)
-  - [ ] [Rehearsal Presentation](path to recording + LLM feedback)
+  - [ ] [Study Note](https://github.com/Karlyoo/Multimedia_Wireless2026/blob/main/A3/study_note.md) — per paper: problem / importance / challenges, system model (environment, I/Ps, O/Ps, metrics), experimental settings for ns-3
+  - [ ] [Revised project proposal](https://github.com/Karlyoo/Multimedia_Wireless2026/blob/main/A3/proposal.md) — what changed from A1 and why
+  - [ ] [Rehearsal Presentation](https://drive.google.com/drive/u/0/folders/1mctjV1ysH1VY3vLCl3qrBKhlK7zRmoMi)
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
+
 
 ### A4 — Baseline Reproduction
 
