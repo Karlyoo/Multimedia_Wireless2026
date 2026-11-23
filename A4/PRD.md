@@ -128,6 +128,12 @@ Verify slide and note counts, metric consistency, XML/archive integrity, PDF pag
 
 Status: completed and verified on 2026-11-23. Editable PPTX, PDF, source ODP, presentation.md, content/builder/validation scripts and presentation-specific figures are delivered. Validation confirms 18 PDF pages and embedded full note texts, 900 seconds of suggested main-slide timing, critical metrics, archive integrity, valid local links and no out-of-page PDF words. All pages were visually inspected; pipeline refinements were re-rendered. No actual rehearsal duration or recording is claimed.
 
+## Approved Review and Notes for the User Reordered PDF
+
+The user supplied `/home/karl/Downloads/M11502203_Karl_A4.pdf` and requested order/content review plus a speaking script. Review its actual 15-page order, not the earlier 18-page exported deck. Preserve the PDF and existing deck; provide feedback rather than implementing unsolicited slide edits. Save an English script in the established A4 Markdown format, with Chinese delivery cues and suggested timing totalling approximately 15 minutes. Keep Figure 6 before Figure 7 as in the supplied deck, make the pipeline branch transition explicit, and state dimensionless RMSE, nonmatching dB references, approximate A coordinates and five-versus-ten-run comparisons where they matter. Check all reviewed pages visually and against recorded metrics. No automatic commit/push or simulation rerun is authorized by this review request.
+
+Status: completed. Reviewed the actual 15-page PDF and recorded minor wording/interpretation recommendations in presentation_karl_notes.md. Delivered 15 matching English narration sections with Chinese cues, 1,821 narration words and continuous suggested timing of 900 seconds. Local links checked. PDF and existing deck preserved; no simulations rerun. Actual rehearsal duration remains unmeasured.
+
 ## Scope Limits and Safety
 
 No hardware, OAI, actual NR-SRS reception, full FCNN/fusion pipeline, RF/MLP training or two-dimensional radio map is required for A4. Do not silently tune parameters to match the reference. Preserve A1/A3 and existing ns-3 installations. Keep new outputs under A4 or temporary directories. No commits, new branches, external publication or destructive operations without explicit authorization.

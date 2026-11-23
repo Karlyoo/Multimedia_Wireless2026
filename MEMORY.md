@@ -22,3 +22,9 @@ Entries are append-only. Dates below are work dates in Asia/Taipei, reconstructe
 - User approved commit title `Add A4 reproduction experiments, reports, and presentation` and authorized submitting to the existing GitHub main branch.
 - Prepared publication checks and repository memory/handoff files. Exact work hours remain marked for review in the commit body.
 - Evidence and limitations: A4/results/*/validation.json and docs/HANDOFF_PROMPT.md. Git history and remote comparison determine the actual publication state; this entry does not pre-claim a successful push.
+
+### Revised presentation review
+
+- Session baseline: 1446eb96651797c4509c6d5ae520cac886dcf011, main, initially clean. Reviewed user-supplied /home/karl/Downloads/M11502203_Karl_A4.pdf, 15 pages, SHA-256 9ac42c2818c1efc27f3b486dc2495249075268238faada61a57c5d87e732f59e.
+- Kept Figure 6 before Figure 7. Added A4/presentation_karl_notes.md with review recommendations, 15 English narration sections, Chinese delivery cues and optional Q&A. Checked 1,821 narration words, contiguous 900-second suggested timing and local links. Rehearsal duration is unmeasured.
+- Preserved original PDF, earlier deck, simulator code and raw data. No new simulation, commit or push was performed for this review. Exact session hours remain unrecorded.

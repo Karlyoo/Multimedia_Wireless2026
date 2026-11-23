@@ -2,7 +2,8 @@
 
 ## Now
 
-- Rehearse the English A4 presentation; suggested timing is 15 minutes, not a measured rehearsal.
+- Rehearse the revised 15-page A4 presentation using A4/presentation_karl_notes.md; suggested timing is 15 minutes, not a measured rehearsal.
+- Consider the minor slide wording fixes recorded in those notes, especially the Figure 6 dB-reference caveat. PDF edits have not been applied.
 
 ## Next
 

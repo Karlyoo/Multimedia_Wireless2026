@@ -21,6 +21,7 @@ Course: Multimedia Wireless Networks (ET5907701), NTUST. Student: Ping-Yu Hsieh,
 | A4/reference/ | Attributed reference crops, Figure 7 points and provenance |
 | A4/A4-baseline-reproduction-en.pptx | English presentation; PDF/ODP alongside it |
 | A4/presentation.md | English speaker notes and timings |
+| A4/presentation_karl_notes.md | Notes matching Karl's revised 15-page PDF, review suggestions and Chinese delivery cues |
 | docs/HANDOFF_PROMPT.md | Detailed live handoff and unresolved limitations |
 
 ## Architecture and Dependencies

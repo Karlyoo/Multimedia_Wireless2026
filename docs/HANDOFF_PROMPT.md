@@ -5,11 +5,14 @@ Updated: 2026-11-23 (Asia/Taipei)
 ## Repository and Baseline
 
 - Workspace: `/home/karl/mw2026/Multimedia_Wireless2026`.
-- Baseline commit: `b180274fc538519c114521ad8f7451e14549e537`.
-- This delivery is based on the baseline above. Before publication, the dirty state was README A4 links plus new A4 deliverables, docs and the four root recall files. User has now approved the commit title and authorized push to existing origin/main. Verify actual publication using `git log -1`, `git status -sb` and a fetched remote comparison; no successful push is pre-claimed by this self-contained commit text. No branches were created.
+- Baseline commit for the revised-PDF review: `1446eb96651797c4509c6d5ae520cac886dcf011`, main. Session-start status was clean and locally tracked origin/main at the same commit; no fresh network verification was needed for the PDF review.
+- Current review changes: A4/PRD.md, new A4/presentation_karl_notes.md, CONTEXT.md, MEMORY.md, TODO.md and this handoff. No commit/push was requested for this review. No branches were created. Earlier publication is recorded in git history; the current notes remain local.
 - Root AGENTS.md, CONTEXT.md, MEMORY.md and TODO.md were absent during experiments and added for the required publication handoff. The root AGENTS.md is static repository guidance, not an activity log. No knowledge-graph index or skill manifest was discovered.
 
 ## Completed and Evidence
+
+- Latest request: reviewed `/home/karl/Downloads/M11502203_Karl_A4.pdf`, 15 pages, including page text, rendered layouts and recorded metrics. Source SHA-256: `9ac42c2818c1efc27f3b486dc2495249075268238faada61a57c5d87e732f59e`. The user's Figure 6-before-Figure 7 sequence is coherent. No PDF edits were made.
+- Delivered `A4/presentation_karl_notes.md`: review recommendations, 15 matching English narration sections with Chinese cues, optional Q&A and source links. Checks found 1,821 narration words, slide numbers 1–15, continuous suggested timing 0:00–15:00 and valid local links. This is not a measured rehearsal. Main cautions: Figure 6 dB references differ, curve RMSE is dimensionless and five-run reference 0.1844 differs from ten-run reference 0.1445.
 
 - Inspected `A3/src/channel-spatial-probe.cc:33`: samples, run and seed are configurable; default readiness run has 257 snapshots.
 - Inspected `A3/src/check-channel-probe.py:1`: validates CSV invariants and creates a readiness plot without a paper reference.
@@ -62,9 +65,9 @@ Updated: 2026-11-23 (Asia/Taipei)
 
 The user selected an all-simulation uplink workflow and agreed to retain RF/MLP spatial-generalization research for the final project. Keep the A4 channel statistic distinct from final positioning accuracy; do not reopen hardware or full-network reproduction as mandatory scope.
 
-Next: user rehearses/reviews the English A4 deck and notes. No required work remains for the requested slides, Figure 6 addition or earlier small tests. Do not automatically expand the grid or combine the best noise/height/bearing settings. Do not promote a counterfactual +y path to the original paper baseline. Final-project work begins with cross-path/revisited-position consistency checks, not immediate RF/MLP training. Do not rerun completed batches unnecessarily; output paths are overwritten on rerun. Never invent reference points or tune against the reference silently.
+Next: user rehearses the revised 15-page PDF with A4/presentation_karl_notes.md and may apply its minor wording recommendations. Original presentation.md follows the older 18-slide deck. No required work remains for this review/script request. No PDF edits, actual rehearsal or follow-up publication are claimed. Do not automatically expand the grid or combine the best noise/height/bearing settings. Do not promote a counterfactual +y path to the original paper baseline. Final-project work begins with cross-path/revisited-position consistency checks, not immediate RF/MLP training. Do not rerun completed batches unnecessarily; output paths are overwritten on rerun. Never invent reference points or tune against the reference silently.
 
-Publication workflow: user authorized `Add A4 reproduction experiments, reports, and presentation`, then push to existing main. Remote fetch initially showed HEAD and origin/main both at b180274, with no custom active Git hooks. Exact daily work durations are unknown, so the commit body must mark the work dates 2026/11/21–23 for review rather than invent hours. Rehearsal/peer-review placeholders remain unfilled; do not mark them complete merely because files were pushed.
+Earlier publication used `Add A4 reproduction experiments, reports, and presentation` at 1446eb9. That authorization does not authorize automatically publishing the later PDF-review notes. Show a proposed message before any future commit. Exact historical daily work durations are unknown; mark them for review rather than inventing hours. Rehearsal/peer-review placeholders remain unfilled; do not mark them complete merely because files were pushed.
 
 CSV publication preserves original bytes: .gitattributes disables line-ending conversion for A4 CSVs and recognizes their intentional CRLF. Do not normalize raw output CSVs and invalidate their recorded hashes. Markdown-only trailing hard-break spaces were replaced with paragraph separation before staging.
 

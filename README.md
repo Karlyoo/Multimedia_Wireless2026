@@ -80,7 +80,7 @@ have an LLM review it, and commit the feedback.
   - [ ] [Small height/bearing tests](A4/sensitivity_study.md) — one-factor controls, five matched runs per setting
   - [ ] [Figure 6 channel-power heatmaps](A4/figure6_study.md) — PDP, transfer-function power and formal-paper comparison
   - [ ] [15-minute English slides](A4/A4-baseline-reproduction-en.pptx) — [PDF](A4/A4-baseline-reproduction-en.pdf) / [speaker notes and timings](A4/presentation.md)
-  - [ ] [Rehearsal Presentation](path to recording + LLM feedback)
+  - [ ] [Rehearsal Presentation](https://drive.google.com/drive/u/0/folders/1XPkZg0MCzzgzRFJeV9J21QRRk2s_MEdA）
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
 
 ### Final Project — Your Modification
