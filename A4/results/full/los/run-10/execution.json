@@ -1,0 +1,16 @@
+{
+  "condition": "los",
+  "run": 10,
+  "returncode": 0,
+  "wall_seconds": 16.48557356799995,
+  "command": [
+    "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+    "--seed=20261109",
+    "--run=10",
+    "--samples=4201",
+    "--nlos=0",
+    "--output=A4/results/full/los/run-10/correlation.csv"
+  ],
+  "correlation_sha256": "021382a88544e200e1764878367fc9b24f9858ff5e499ba0aa7794bcd3990f34",
+  "witness_sha256": "1af6e6f7128e513a5b1d85891130801083f842458d3936815c5f9de850f1e4ac"
+}

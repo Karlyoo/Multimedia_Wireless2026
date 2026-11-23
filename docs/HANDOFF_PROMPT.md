@@ -1,0 +1,75 @@
+# Live Handoff
+
+Updated: 2026-11-23 (Asia/Taipei)
+
+## Repository and Baseline
+
+- Workspace: `/home/karl/mw2026/Multimedia_Wireless2026`.
+- Baseline commit: `b180274fc538519c114521ad8f7451e14549e537`.
+- This delivery is based on the baseline above. Before publication, the dirty state was README A4 links plus new A4 deliverables, docs and the four root recall files. User has now approved the commit title and authorized push to existing origin/main. Verify actual publication using `git log -1`, `git status -sb` and a fetched remote comparison; no successful push is pre-claimed by this self-contained commit text. No branches were created.
+- Root AGENTS.md, CONTEXT.md, MEMORY.md and TODO.md were absent during experiments and added for the required publication handoff. The root AGENTS.md is static repository guidance, not an activity log. No knowledge-graph index or skill manifest was discovered.
+
+## Completed and Evidence
+
+- Inspected `A3/src/channel-spatial-probe.cc:33`: samples, run and seed are configurable; default readiness run has 257 snapshots.
+- Inspected `A3/src/check-channel-probe.py:1`: validates CSV invariants and creates a readiness plot without a paper reference.
+- User approved `A4/PRD.md` and execution. Implemented A4 simulation wrapper/runner, reference recovery, analysis and validation, preserving the existing A3 exporter.
+- Executed a 42-second pilot and 20 full runs, 10 LOS and 10 NLOS, each with 4,201 snapshots. `A4/results/full/executions.json` records process results and SHA-256 hashes. The pilot exactly repeats LOS run 1.
+- Recovered 33 vector vertices from university post-print Figure 7, PDF page 9, using the source in `A4/reference/provenance.json`. The original PDF is `/tmp/a4-paper.pdf`, not redistributed. Reference extraction uses `pdftocairo` and manually verified linear calibration; retained source crop inspected visually.
+- Generated same-axis single-run and ensemble overlays, full-scale sensitivity plot, aggregate CSVs and metrics. LOS mean curve RMSE 0.1714285, preselected LOS run 1 RMSE 0.2669911; NLOS mean curve RMSE 0.1627482. These are correlation-curve errors, not position errors.
+- `python3 A4/src/validate.py` PASS: 20 distinct curves, repeat hashes, matching short-path prefix, dimensions and reference counts. Evidence: `A4/results/validation.json`.
+- Official `three-gpp-channel` QUICK suite freshly passed in 8.392 s; log at `A4/results/official-channel-test.log`.
+- Python compilation and `git diff --check` passed. English report is `A4/study_note.md`; README links updated. Main/reference plots inspected visually.
+- Follow-up requested by user: implemented separate noisy exporter and `--noise-study` runner, preserving all A3 source and original A4 CSVs. `A4/results/noise/executions.json` contains 40 completed 42-second runs: 10 noiseless controls plus 10 each at 1/6/11 dB. Four 257-snapshot settings were run twice under noise-pilot/noise-repeat.
+- `python3 A4/src/analyze-noise.py` validates original-baseline hash equality for all ten noiseless controls, paired clean-channel witnesses and noise scaling, four short repeat controls, and 120 spectrum checks. Max realized aggregate SNR error is 0.001681 dB. Evidence: `A4/results/noise/validation.json`.
+- Mean-curve RMSE: noiseless 0.1714285, 1 dB 0.1964509, 6 dB 0.1206966, 11 dB 0.1424647. Six dB lowers this diagnostic metric by 29.6%, not position error; do not infer the paper's true SNR or replace the predeclared baseline. Per-run RMSE improves in 9/10 channel runs for 6 and 11 dB, 6/10 for 1 dB.
+- Read original Figure 5 on PDF page 8, retained and inspected `A4/reference/figure5-source.png`. It shows a 4.2 by 2.5 m scan, first +x arrow away from the left-hand BS, alternating scan directions, roughly 0.05 m line spacing, a 1.1 m face-to-region gap and a 1.2 m plan-view LuMaMi extent. These do not establish BS height or exact antenna phase center.
+- English follow-up report: `A4/noise_study.md`. Same-axis comparison, full-scale plot and per-run panels are under `A4/results/noise`. Baseline report/README now link the follow-up.
+- User approved the approximate Figure 5 geometry and direction experiment. Thirty noiseless LOS runs completed: paper-x-full 4.2 m, control-x 2.5 m and control-y 2.5 m, ten runs each. Evidence: `A4/results/geometry/executions.json`; report: `A4/geometry_study.md`.
+- New exporter uses the planar velocity-vector Doppler projection and verifies against ns-3 spectrum conversion. All 90 full-run cross-checks passed. The old-baseline pilot CSV matches exactly; two pilot profiles repeat byte-identically. Geometry control starts have matching initial channel witnesses; all ten +x controls match the full path's witness prefix.
+- Every lag is recomputed with reversed stored samples: 4,890 checks, max complex-conjugate error 6.6962e-13 and magnitude error 6.6913e-13. Evidence: `A4/results/geometry/validation.json`.
+- Geometry-aligned ensemble RMSE 0.1444567 versus original 0.1714285, a 15.7% reduction. Only 4/10 individual runs improve; mean individual paired RMSE difference is +0.0054616. Do not claim uniform improvement or recovered true coordinates.
+- Equal-length controls: mean correlation at 1.998 wavelengths is 0.4758622 (+x) versus 0.1112031 (+y), with +y lower in all ten matched runs. Mean-curve RMSE is 0.1884151 (+x) and 0.2170353 (+y), so faster decorrelation does not mean better full-curve reproduction.
+- User requested small-workload tests. Completed twenty new 42 s noiseless LOS runs for heights 1.73/3.0 m and bearings -30/+30 degrees, one factor at a time. Reused geometry/paper-x-full run IDs 1–5 for the common 2.5 m / 0-degree reference. No old exporter or run data was changed. Report: `A4/sensitivity_study.md`.
+- `A4/results/sensitivity/validation.json`: 20 new full runs, 60 spectrum checks, five reused reference runs with hashes, three pilots and exact short/full reference CSV regressions. New source: `A4/src/sensitivity-channel-correlation.cc`; runner and analyzer: run-sensitivity.py / analyze-sensitivity.py.
+- Matched five-run mean-curve RMSE: reference 0.1844262; height 1.73 m 0.2538375; height 3.0 m 0.1498485; bearing -30 degrees 0.1646062; bearing +30 degrees 0.1707641. Individual improved-run counts: 2/5, 3/5, 5/5 and 3/5 respectively. The five-run reference is intentionally different from the previous ten-run mean.
+- Bearing -30 degrees has the more consistent paired improvement in this screen: mean individual-run RMSE difference -0.0269442, sample SD 0.0269643, all five lower. Height 3.0 m minimizes ensemble-mean RMSE but only improves three individual runs. No significance, physical parameter recovery, combined optimum or measured oscillation explanation is established.
+- User approved adding Figure 6. Completed ten stationary LOS observations at schematic approximate A=(3.19,0.42,1.73) m, BS=(0,0,2.5) m, plus an identical repeat of preselected run 1. New source `A4/src/figure6-channel.cc`, runner run-figure6.py, reference extractor extract-figure6-reference.py and analysis analyze-figure6.py. No earlier exporter/result was modified.
+- Formal PDF supplied by user is `/home/karl/Downloads/Deep-Learning-Based_High-Precision_Localization_With_Massive_MIMO.pdf`, SHA-256 `9ff11015c1650b6d985911fa73b9c440c32dfa1a712072a3603bf628ac43baa2`. Figure 6 crop and Figure 5 point-A schematic calibration are in `A4/reference/figure6-provenance.json`. This does not change the earlier Figure 7 extraction's post-print provenance.
+- `A4/results/figure6/validation.json` PASS: ten distinct 100-by-100 complex responses, eleven spectrum checks, exact channel/cluster repeat, zero direct delay-sum reconstruction error, max FFT round-trip error 1.8311e-15 and Parseval relative error 2.7676e-16. Raw channel/coefficient CSVs, run-1 full CIR, per-run delay-energy CSVs and metrics are preserved.
+- Figure 6 run 1 has 99.9873% IDFT energy in the first three bins; mean across ten runs 99.6435%, range 98.2922–99.9998%. Antenna-index power roughness exceeds frequency-index roughness in all ten runs. Run-1 frequency-power dynamic range is only 2.2182 dB, so it does not reproduce the measured deep dips. Native-range supplemental plot is labelled, not used to invent matching contrast.
+- `A4/figure6_study.md` documents comparison, assumptions, exact 55.56 ns native delay grid, 5.556 microsecond delay period and separate per-map peak dB references. Main/README/source links updated. Formal-reference/simulation comparison and native-range plots inspected visually.
+- User requested the A4 presentation, interrupted after specification, then explicitly resumed. Completed English `A4/A4-baseline-reproduction-en.pptx`, PDF and editable source ODP, with `A4/presentation.md` notes. Sixteen timed main slides plus two untimed backups; total suggested timing 900 s; main narration 1,786 words. No actual rehearsal recording/duration measured.
+- Presentation source: `A4/src/presentation_content.py`, `build-presentation.py`, `validate-presentation.py`. Charts are redrawn from existing CSVs with larger fonts under `A4/results/presentation`; no simulations rerun for slides. All 18 pages visually reviewed, including table/chart layouts; pipeline title/arrow refinement re-exported and inspected.
+- `A4/results/presentation/validation.json` PASS: 18 PPTX slides and complete embedded note texts, 18 PDF pages, archive/XML integrity, key metrics in PDF, local links, no out-of-page text and 900 s target. Notes also exist in Markdown. README and source usage links updated. LibreOffice export required approved sandbox escalation; simulator sources/data remain unchanged.
+
+## Open Limitations and Risks
+
+- No required implementation remains for the approved scope. The 15-minute English deck was later requested and delivered; a rehearsal recording/actual timed delivery is not included.
+- `A4/study_note.md:7`: curves do not exactly match the measured result; causes are discussed as confirmed setup differences versus untested hypotheses, not uniquely established mechanisms.
+- `A4/study_note.md:19`: numeric reference comes from the accepted post-print. Numerical identity with the publisher PDF is unverified; do not relabel it as a publisher-PDF extraction.
+- `A4/src/channel-correlation.cc:1`: depends on A3 source by include. The A4 folder is not independently buildable without A3; documented in src/README.md.
+- The external delay-factor cache behavior remains worked around, not fixed upstream; see `A3/src/channel-spatial-probe.cc:154` and A3/environment.md. No external library edits were authorized or made.
+- Instructor acceptance of a channel-statistic rather than localization-accuracy baseline is unverified. Final two-dimensional radio-map consistency is also unverified; do not describe either as approved/proved.
+- `A4/noise_study.md:9`: noise fixes expected snapshot-average SNR using per-snapshot signal power, not a fixed receiver floor or actual varying per-tone measurement SNR. Independent snapshot noise gives a near-zero-lag drop and does not reconstruct the reference oscillations.
+- `A4/geometry_study.md:9`: the new geometry is an approved approximation: BS (0,0,2.5), UE (1.1,-0.6,1.73), inferred lateral centering and front-face phase-center plane. These are not fully reported paper coordinates. The original baseline/noise geometry is unchanged. Do not interpret the 1.2 m plan dimension as height.
+- `A4/src/noisy-channel-correlation.cc:1`: separate copy of the baseline exporter with observation-noise additions. Disabled-noise hashes currently match; future exporter changes must retain that regression check rather than allowing the implementations to drift.
+- `A4/sensitivity_study.md:9`: the height/bearing screen has only five predeclared matched runs per setting. Do not compare new five-run means with the prior ten-run reference or silently replace the paper baseline with the best setting. More runs/independent measurement evidence remain unperformed.
+- `A4/figure6_study.md:15`: point A is estimated from the schematic, not surveyed. Geometry origin, phase-center mapping and BS height remain assumptions. Raw simulated coefficients omit RF/noise/path-loss calibration. Native IDFT bins must not be relabelled 50 ns based on nominal 20 MHz; actual tone grid gives 55.56 ns.
+- `A4/figure6_study.md`: paper dB reference and antenna mapping are not reconstructed. Simulated panels use separate global-map peaks, not matching original numeric colors. No heatmap-pixel RMSE or exact reproduction is justified. The run-1 map is visibly smoother than measurement.
+
+## Decisions and Exact Next Phase
+
+The user selected an all-simulation uplink workflow and agreed to retain RF/MLP spatial-generalization research for the final project. Keep the A4 channel statistic distinct from final positioning accuracy; do not reopen hardware or full-network reproduction as mandatory scope.
+
+Next: user rehearses/reviews the English A4 deck and notes. No required work remains for the requested slides, Figure 6 addition or earlier small tests. Do not automatically expand the grid or combine the best noise/height/bearing settings. Do not promote a counterfactual +y path to the original paper baseline. Final-project work begins with cross-path/revisited-position consistency checks, not immediate RF/MLP training. Do not rerun completed batches unnecessarily; output paths are overwritten on rerun. Never invent reference points or tune against the reference silently.
+
+Publication workflow: user authorized `Add A4 reproduction experiments, reports, and presentation`, then push to existing main. Remote fetch initially showed HEAD and origin/main both at b180274, with no custom active Git hooks. Exact daily work durations are unknown, so the commit body must mark the work dates 2026/11/21–23 for review rather than invent hours. Rehearsal/peer-review placeholders remain unfilled; do not mark them complete merely because files were pushed.
+
+CSV publication preserves original bytes: .gitattributes disables line-ending conversion for A4 CSVs and recognizes their intentional CRLF. Do not normalize raw output CSVs and invalidate their recorded hashes. Markdown-only trailing hard-break spaces were replaced with paragraph separation before staging.
+
+Direction results establish sensitivity inside this evolving statistical model, not the cause of the paper's measured oscillations. Reversal of the same stored channel data preserves magnitude; separately initialized reverse-motion paths need not revisit the same radio map. Cross-path map consistency remains open and must not be inferred from matching initial witnesses.
+
+## Safety
+
+Preserve existing coursework and simulator installations. No auto-commit, branch/worktree creation, external publication or destructive cleanup. Use apply_patch for source edits. Report actual completed runs and unverified claims explicitly. Update this handoff in place at the end of the next non-trivial work session.

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "new_full_runs": 20,
+  "reused_reference_runs": 5,
+  "compared_runs_per_setting": 5,
+  "samples": 4201,
+  "lags": 163,
+  "full_spectrum_checks": 60,
+  "pilot_runs": 3,
+  "short_regression_identical": true,
+  "full_reference_regression_identical": true,
+  "only_height_or_bearing_changed": true
+}

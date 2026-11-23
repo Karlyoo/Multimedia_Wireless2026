@@ -1,0 +1,156 @@
+[
+  {
+    "run": 1,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.021750056999735534,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=1",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-01/channel.csv"
+    ],
+    "channel_sha256": "ee7ffbfe36f50379193153e6605ae7d0bcfaad3ac0708f8a12a1e86a2941c5b6",
+    "cluster_sha256": "bb0454db82521090c2ad9d3c9e4946cecd1f4e2d2b11f2299c661310b9871a2f"
+  },
+  {
+    "run": 2,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.02265039500343846,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=2",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-02/channel.csv"
+    ],
+    "channel_sha256": "8cbe1d994ef9d15adc3da230bea45e4a24612ed0b666b92edcc284a912e89a7c",
+    "cluster_sha256": "ff9f199087367b8bcbd502a354cf1886ff3285b0d121a1819d962e49d295f4c9"
+  },
+  {
+    "run": 3,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.026321258999814745,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=3",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-03/channel.csv"
+    ],
+    "channel_sha256": "959c7c9e9bb108de69b0b14838aa5bccea7c8621801882108d1a20ef4e54ce03",
+    "cluster_sha256": "0f0bc55d06a1df33f3e77d84bc442848a2dab3063535ed726b4d2e34444b337b"
+  },
+  {
+    "run": 4,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.02427472900308203,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=4",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-04/channel.csv"
+    ],
+    "channel_sha256": "29f99793bbef82b3a3bf7c2f420a0b9bd794007c6005663e75837de422306785",
+    "cluster_sha256": "960385eb4117654cfccf6dfd907336151ca45506ec6e524528716dd64a09890b"
+  },
+  {
+    "run": 5,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.023680038000748027,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=5",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-05/channel.csv"
+    ],
+    "channel_sha256": "7acb193b9a551366179fcf08e39b7373423192f5355af451d0cc65cf33400112",
+    "cluster_sha256": "16c2e1a798f179fa153668ce44ef80dea8b3bcca6619b7f75fa89b3b9891f5e4"
+  },
+  {
+    "run": 6,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.022765953006455675,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=6",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-06/channel.csv"
+    ],
+    "channel_sha256": "58d7ce67e7d520a7f662ac4caa2bdf41cd68d462ae3ba764b189132bf2beaeb0",
+    "cluster_sha256": "a095b68b267404f2b4a5231f2773f62b01cb0e3b6adf3a57937cc747f6d10e7d"
+  },
+  {
+    "run": 7,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.024387500998273026,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=7",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-07/channel.csv"
+    ],
+    "channel_sha256": "68b14f5931b85a5e9fad93e697032efcc596dba2f26400d9c2088b0368084a99",
+    "cluster_sha256": "7f0b6c97a4b1099fa9eb9e1959ad860b26fdd3e6df1dc62a619d5956c9f3992b"
+  },
+  {
+    "run": 8,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.021989628003211692,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=8",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-08/channel.csv"
+    ],
+    "channel_sha256": "341a624096e31217ff84783e4719a8f268a90b7206354995323421e3177bc5cd",
+    "cluster_sha256": "3cd9bb63b63f0c20c8dad12f98e0394c1a9c83e4e4c456f94677123bf23d3329"
+  },
+  {
+    "run": 9,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.02289105800446123,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=9",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-09/channel.csv"
+    ],
+    "channel_sha256": "49908f46ceaa33d02edee61fba264912c1539f6fef5a4c7134d9e180d71cad71",
+    "cluster_sha256": "86e1db7e12c8e6df73a829220d24584e86d226bbd4f0ea616246f2b45f2e310f"
+  },
+  {
+    "run": 10,
+    "repeat": false,
+    "returncode": 0,
+    "wall_seconds": 0.023089613001502585,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=10",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-10/channel.csv"
+    ],
+    "channel_sha256": "b365c02ed3f22381e38bb6760c9d76521d3905a0af65a2e0a22167d74efee6b3",
+    "cluster_sha256": "555fc1e4b69634398570ab217500961230bd7a9eb78a3ae2628edd6c2594d170"
+  },
+  {
+    "run": 1,
+    "repeat": true,
+    "returncode": 0,
+    "wall_seconds": 0.025408678004168905,
+    "command": [
+      "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+      "--seed=20261109",
+      "--run=1",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/repeat-run-01/channel.csv"
+    ],
+    "channel_sha256": "ee7ffbfe36f50379193153e6605ae7d0bcfaad3ac0708f8a12a1e86a2941c5b6",
+    "cluster_sha256": "bb0454db82521090c2ad9d3c9e4946cecd1f4e2d2b11f2299c661310b9871a2f"
+  }
+]

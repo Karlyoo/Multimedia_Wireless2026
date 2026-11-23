@@ -1,0 +1,21 @@
+{
+  "profile": "bearing-minus30",
+  "run": 1,
+  "command": [
+    "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+    "--seed=20261109",
+    "--run=1",
+    "--nlos=0",
+    "--samples=4201",
+    "--ueX=1.1",
+    "--ueY=-0.6",
+    "--bsHeight=2.5",
+    "--bearingDegrees=-30",
+    "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-minus30/run-01/correlation.csv"
+  ],
+  "returncode": 0,
+  "validation_returncode": 0,
+  "wall_seconds": 22.363770523999847,
+  "csv_sha256": "f43435ed1a0c2586937d9f906e9aad4e37be070002acec8ff29cfb143c1b062f",
+  "witness_sha256": "2146ebd63e6dd7f42fbffe0749bef20edbc83e06ca1d9e3aa2e9e0ad1dd5e2f9"
+}

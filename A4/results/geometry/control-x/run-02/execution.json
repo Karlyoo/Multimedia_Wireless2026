@@ -1,0 +1,21 @@
+{
+  "profile": "control-x",
+  "run": 2,
+  "command": [
+    "/tmp/a4-geometry-build-d2w65_8w/channel-correlation",
+    "--seed=20261109",
+    "--run=2",
+    "--nlos=0",
+    "--samples=2501",
+    "--ueX=1.1",
+    "--ueY=-0.6",
+    "--headingDegrees=0",
+    "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/geometry/control-x/run-02/correlation.csv"
+  ],
+  "returncode": 0,
+  "validation_returncode": 0,
+  "wall_seconds": 23.730405575000077,
+  "csv_sha256": "dc8522cbb148e436aff93ab2203b2bccb747075721ea97f22b494bc962ef8163",
+  "witness_sha256": "66241981cb3e3fa58b0d5dee8ae800e371428d473b7bd1c09212e66970c133e5",
+  "reverse_sha256": "1fa59a7662273cfc25207bcc7a1c695a85557f734816052ef2753731e5ad26ef"
+}

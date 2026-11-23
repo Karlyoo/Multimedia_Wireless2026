@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "full_runs": 20,
+  "samples_per_run": 4201,
+  "lags_per_run": 163,
+  "spectrum_cross_checks_total": 60,
+  "distinct_curve_hashes": 20,
+  "repeat_csv_and_witness_identical": true,
+  "short_path_prefix_identical": true,
+  "reference_vertices": 33,
+  "reference_points_compared": 32
+}

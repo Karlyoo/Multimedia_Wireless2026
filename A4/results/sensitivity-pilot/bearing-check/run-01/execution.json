@@ -1,0 +1,21 @@
+{
+  "profile": "bearing-check",
+  "run": 1,
+  "command": [
+    "/tmp/a4-sensitivity-build-244qaq7r/channel-correlation",
+    "--seed=20261109",
+    "--run=1",
+    "--nlos=0",
+    "--samples=257",
+    "--ueX=1.1",
+    "--ueY=-0.6",
+    "--bsHeight=2.5",
+    "--bearingDegrees=-30",
+    "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity-pilot/bearing-check/run-01/correlation.csv"
+  ],
+  "returncode": 0,
+  "validation_returncode": 0,
+  "wall_seconds": 0.9193516840005032,
+  "csv_sha256": "2569455bf7fd0eeb22bc82bf35793517e1cd7e8b8d9326c5ff6db38c83007327",
+  "witness_sha256": "e7c8f493d0bb4641c9d1db355fc725196049be2ec5ba40fcf6a1e763a36d3ec4"
+}

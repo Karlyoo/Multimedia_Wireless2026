@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "full_runs": 40,
+  "runs_per_setting": 10,
+  "samples": 4201,
+  "spectrum_cross_checks": 120,
+  "noiseless_baseline_hash_matches": 10,
+  "channel_witnesses_identical_across_snr": true,
+  "common_noise_scaling_verified": true,
+  "short_repeat_settings": 4,
+  "distinct_curve_hashes": 40,
+  "max_realized_snr_error_db": 0.0016806025139661784
+}

@@ -1,0 +1,99 @@
+{
+  "main_slides": 16,
+  "backup_slides": 2,
+  "total_slides": 18,
+  "suggested_seconds": 900,
+  "main_notes_word_count": 1786,
+  "timings": [
+    {
+      "slide": 1,
+      "title": "Reconstructing Uplink Channel Structure",
+      "seconds": 25
+    },
+    {
+      "slide": 2,
+      "title": "01 What Result Am I Reproducing?",
+      "seconds": 45
+    },
+    {
+      "slide": 3,
+      "title": "02 Observable and Processing Pipeline",
+      "seconds": 55
+    },
+    {
+      "slide": 4,
+      "title": "03 Original Settings and Declared Assumptions",
+      "seconds": 60
+    },
+    {
+      "slide": 5,
+      "title": "04 Verification Before Interpretation",
+      "seconds": 45
+    },
+    {
+      "slide": 6,
+      "title": "05 Figure 7: One Trajectory Versus One Run",
+      "seconds": 70
+    },
+    {
+      "slide": 7,
+      "title": "06 Figure 7: Variability Across Channel Runs",
+      "seconds": 65
+    },
+    {
+      "slide": 8,
+      "title": "07 Does Observation Noise Explain the Gap?",
+      "seconds": 75
+    },
+    {
+      "slide": 9,
+      "title": "08 Aligning the Approximate UE Trajectory",
+      "seconds": 70
+    },
+    {
+      "slide": 10,
+      "title": "09 Direction Matters; Sample Order Does Not",
+      "seconds": 60
+    },
+    {
+      "slide": 11,
+      "title": "10 Small Tests: Height and Array Bearing",
+      "seconds": 60
+    },
+    {
+      "slide": 12,
+      "title": "11 Figure 6: From Frequency to Delay",
+      "seconds": 65
+    },
+    {
+      "slide": 13,
+      "title": "12 Figure 6: Qualitative Agreement and Limits",
+      "seconds": 75
+    },
+    {
+      "slide": 14,
+      "title": "13 What Explains the Remaining Difference?",
+      "seconds": 55
+    },
+    {
+      "slide": 15,
+      "title": "14 Reproducibility and Delivered Evidence",
+      "seconds": 40
+    },
+    {
+      "slide": 16,
+      "title": "15 Conclusion and Final-Project Connection",
+      "seconds": 35
+    },
+    {
+      "slide": 17,
+      "title": "Backup A: References and Source Locations",
+      "seconds": 0
+    },
+    {
+      "slide": 18,
+      "title": "Backup B: Questions to Anticipate",
+      "seconds": 0
+    }
+  ]
+}

@@ -72,9 +72,14 @@ have an LLM review it, and commit the feedback.
 
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a4--baseline-reproduction)
 - Submissions:
-  - [ ] [Study Note](path to your .md file)
-  - [ ] [Flowchart + source code for simulation and analysis](path to your src/)
-  - [ ] [Numerical results](path to specific section in your study note) — plotted against the paper's figure, with parameters, seeds and run count
+  - [ ] [Study Note](A4/study_note.md)
+  - [ ] [Flowchart + source code for simulation and analysis](A4/src/README.md)
+  - [ ] [Numerical results](A4/study_note.md#5-numerical-results) — Figure 7 reference overlays, parameters, seeds and 10 runs per condition
+  - [ ] [Noise sensitivity and Figure 5 geometry](A4/noise_study.md) — noiseless / 1 / 6 / 11 dB, paired runs and assumptions
+  - [ ] [UE trajectory and direction controls](A4/geometry_study.md) — Figure-5-aligned approximation, matched +x/+y paths and reversal checks
+  - [ ] [Small height/bearing tests](A4/sensitivity_study.md) — one-factor controls, five matched runs per setting
+  - [ ] [Figure 6 channel-power heatmaps](A4/figure6_study.md) — PDP, transfer-function power and formal-paper comparison
+  - [ ] [15-minute English slides](A4/A4-baseline-reproduction-en.pptx) — [PDF](A4/A4-baseline-reproduction-en.pdf) / [speaker notes and timings](A4/presentation.md)
   - [ ] [Rehearsal Presentation](path to recording + LLM feedback)
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
 

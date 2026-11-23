@@ -1,0 +1,3 @@
+samples=4201 rx_elements=100 tones=100 generation_changes=4200 spectrum_cross_checks=3 simulated_seconds=42 output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-3.0/run-05/correlation.csv
+PASS: 4201 snapshots; 163 lags; finite complex CFR; rho(0)=1; updates observed
+abs_rho at last lag (1.998 lambda): 0.530336

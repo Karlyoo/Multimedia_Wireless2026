@@ -1,0 +1,21 @@
+{
+  "condition": "los",
+  "run": 9,
+  "returncode": 0,
+  "wall_seconds": 24.197596746999807,
+  "command": [
+    "/tmp/a4-channel-build-8cbhixjw/channel-correlation",
+    "--seed=20261109",
+    "--run=9",
+    "--samples=4201",
+    "--nlos=0",
+    "--output=A4/results/noise/los/snr-11/run-09/correlation.csv",
+    "--noise=1",
+    "--snrDb=11",
+    "--noiseStream=100001"
+  ],
+  "validation_returncode": 0,
+  "snr_db": 11,
+  "correlation_sha256": "d039354598dc42bda0c86335a13b974f85c7ce9332a86d36c88667b9e0de9eb6",
+  "witness_sha256": "53775b6b896913cf79ad179b73d9494565fc7a68848c19521aabf71e37233d23"
+}

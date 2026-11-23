@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "main_slides": 16,
+  "backup_slides": 2,
+  "total_pdf_pages": 18,
+  "embedded_note_pages": 18,
+  "full_note_text_verified": true,
+  "suggested_seconds": 900,
+  "metrics_found_in_pdf": true,
+  "out_of_page_words": 0,
+  "local_links_valid": true,
+  "visual_review": "All 18 slides reviewed; pipeline arrow/title refinement re-rendered.",
+  "pptx_sha256": "3b31077082d66ffef64f19b7acb5f27f4676f0135de1f85583f2b6b8aad9cf87",
+  "pdf_sha256": "621d42705d8ead729ab37d6f4fbe6061eb84471c2e5785dafd04146575cb3d96",
+  "notes_sha256": "aac45d14e2ebdcbd4b1e95122b4a6ad661e836ed9ba42d81848bac02c7676cc7"
+}

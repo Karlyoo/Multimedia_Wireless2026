@@ -1,0 +1,422 @@
+[
+  {
+    "profile": "height-1.73",
+    "run": 1,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=1.73",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-1.73/run-01/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 21.459413049999966,
+    "csv_sha256": "20e7bdece9726e65cdee2eb7c1bee054d865de872c63d3b5a381ea7b4339f7e2",
+    "witness_sha256": "31e951cc99cf90399d8eb71c16e8ad3ae53a0ff620b0988745960548e0814927"
+  },
+  {
+    "profile": "height-1.73",
+    "run": 2,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=2",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=1.73",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-1.73/run-02/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 21.630041691999395,
+    "csv_sha256": "66e28bc24bb6f22a9e046107b4b6578a76d2556c393f876bff4d059df2c4a690",
+    "witness_sha256": "fb8e96204336cb3421f1051fa9d35f4f1d62bf2c10cedd33a0e802c8ae08a084"
+  },
+  {
+    "profile": "height-1.73",
+    "run": 3,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=3",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=1.73",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-1.73/run-03/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 25.985288762999517,
+    "csv_sha256": "7b0d6b4319e6d76e6e9bff0a5aa107e853ebb5a7891bca43af61d68dd116d3ce",
+    "witness_sha256": "9f8b7afbf129b49e198d1b2e252668d36581e73c8ced64eabea93be63703f792"
+  },
+  {
+    "profile": "height-1.73",
+    "run": 4,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=4",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=1.73",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-1.73/run-04/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 25.34786772500047,
+    "csv_sha256": "9b3c3999df359bfc5afcf13132b9d76c2afe8ddc92879c4b921ce5f2607eac90",
+    "witness_sha256": "09af710d6b4c5f458f3298b7586b4bf0528f76a3410a5bfd1dcafa917eadc1e4"
+  },
+  {
+    "profile": "height-1.73",
+    "run": 5,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=5",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=1.73",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-1.73/run-05/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 26.919589492999876,
+    "csv_sha256": "6c95e876221a1fc51ef5f069d2510ea87519119be60b4f6659256f09d3b969d4",
+    "witness_sha256": "ca829e2d88ded62c716be6fa4196db1bea4f993def5616b2760eec8da7826f17"
+  },
+  {
+    "profile": "height-3.0",
+    "run": 1,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=3.0",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-3.0/run-01/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 22.302911134999704,
+    "csv_sha256": "0b6b9ef6e06980c51a7b133078713c4eeb32f48c2461895fb044f12798dbfbfe",
+    "witness_sha256": "1f90304973558fd95047dc4949da52f06347cdddaae280988c9a111264d93128"
+  },
+  {
+    "profile": "height-3.0",
+    "run": 2,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=2",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=3.0",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-3.0/run-02/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 22.40119559699997,
+    "csv_sha256": "5d0d14b8a8218c2c2fb467b0a5f7ae50c95909d66d130699a9cf205fa16feff3",
+    "witness_sha256": "327836ce40c411d14ce850d637088c9ae054e3fb9b2ad89b4368a64dc9e1ca8e"
+  },
+  {
+    "profile": "height-3.0",
+    "run": 3,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=3",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=3.0",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-3.0/run-03/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 26.8813799870004,
+    "csv_sha256": "49ae1d82d5b2e39a2ee61e65f264e88ebc10f9ff1f3f492471b60d9cd806f411",
+    "witness_sha256": "9f46f300fc07e6f48ea95d87afd0a62d3b7dfce00158498b3d435365aa641411"
+  },
+  {
+    "profile": "height-3.0",
+    "run": 4,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=4",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=3.0",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-3.0/run-04/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 26.564381193999907,
+    "csv_sha256": "243bbb910b2e67ff9eafaff7bbca164c1e1b111eb09dcd9ccc70e27db7cfb358",
+    "witness_sha256": "3b0064f1bafb7230be88a0bf1e0dd26f40d655b54a27429a82fe917fae76467f"
+  },
+  {
+    "profile": "height-3.0",
+    "run": 5,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=5",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=3.0",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-3.0/run-05/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 27.845164631999978,
+    "csv_sha256": "d08147e4fcbdbdd6ccc7aff3ab548754f254f542d9c2a3c150a172980019119d",
+    "witness_sha256": "802c1e351bca1f5620d61fa826ba26a900b2113c6273dcfa84da10b0e25dede3"
+  },
+  {
+    "profile": "bearing-minus30",
+    "run": 1,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=-30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-minus30/run-01/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 22.363770523999847,
+    "csv_sha256": "f43435ed1a0c2586937d9f906e9aad4e37be070002acec8ff29cfb143c1b062f",
+    "witness_sha256": "2146ebd63e6dd7f42fbffe0749bef20edbc83e06ca1d9e3aa2e9e0ad1dd5e2f9"
+  },
+  {
+    "profile": "bearing-minus30",
+    "run": 2,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=2",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=-30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-minus30/run-02/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 22.44154977299968,
+    "csv_sha256": "688a2b22d81cf5955e0b0763a4b775d070b9c87b1f51eb8f4234e093ec569031",
+    "witness_sha256": "d6a6e2e564d79de38b8555dc9bee1490bb7162271662c371e8e5430c06fe1c6d"
+  },
+  {
+    "profile": "bearing-minus30",
+    "run": 3,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=3",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=-30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-minus30/run-03/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 27.013784278999992,
+    "csv_sha256": "9127cfe52aa711dc3576479476e3961275ef3bf5b93b08d11c05434c1eff26bf",
+    "witness_sha256": "a32d8e815428d8c896f746c9cb36c008d998f4b005cbd52dc5ac39ff7474f5db"
+  },
+  {
+    "profile": "bearing-minus30",
+    "run": 4,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=4",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=-30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-minus30/run-04/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 26.361259420999886,
+    "csv_sha256": "214bec370afec5534ba61d1692284ce63aa2086ee3373df6e2d8e9d5657e1c1e",
+    "witness_sha256": "d4a6164a55e30242dfe42b31ed1fef61b38da01373f61b736c2dc2536a43cb87"
+  },
+  {
+    "profile": "bearing-minus30",
+    "run": 5,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=5",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=-30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-minus30/run-05/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 26.860084081999958,
+    "csv_sha256": "f38331def8a6543a044ca17c9d4e70e7a46df61444c3476427e4d9a6fadb9d64",
+    "witness_sha256": "f4cc9b404602b9a4c1d848e85b34cd9f34fc07e07edb4b7f55f43540edc2f76e"
+  },
+  {
+    "profile": "bearing-plus30",
+    "run": 1,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-plus30/run-01/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 22.26976179599933,
+    "csv_sha256": "9b88991401dbf4830e88e0965abbb543aba41f0431216601cf4d1746eb0250f1",
+    "witness_sha256": "0f74d5019fcf470d5b6b56af59215a44f856be61b528f0687c18009ebffe0542"
+  },
+  {
+    "profile": "bearing-plus30",
+    "run": 2,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=2",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-plus30/run-02/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 22.52637275500001,
+    "csv_sha256": "1dbbd75f8e3e1b3ac0954ed3980e76c2886ca03cf52ee13bc16ff9cf10548aee",
+    "witness_sha256": "5b7a894027629835c7e792f9f41aee8a40e3eb855757d4477bbc84bd3192bb0e"
+  },
+  {
+    "profile": "bearing-plus30",
+    "run": 3,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=3",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-plus30/run-03/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 26.991072626999994,
+    "csv_sha256": "954fdcb53b740d903a7c43c0dfbc2a8adb40e0fac32de870470d9a936f757176",
+    "witness_sha256": "a1b224874a9de6aed029cef4625f7fc02a1ace2cdf6d32d153b0def2307da867"
+  },
+  {
+    "profile": "bearing-plus30",
+    "run": 4,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=4",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-plus30/run-04/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 26.428960492999977,
+    "csv_sha256": "bd728147c595a1f0d64d8dd7c90bf45801ca2fc65e7c46748df306584f25e45e",
+    "witness_sha256": "7f0dd1cd5788fe2cbd521a1e6aaf6137d0590a07012633a928424622493edcb4"
+  },
+  {
+    "profile": "bearing-plus30",
+    "run": 5,
+    "command": [
+      "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+      "--seed=20261109",
+      "--run=5",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/bearing-plus30/run-05/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 27.373465772999225,
+    "csv_sha256": "898e0a800bbc6a247504190dff95f3982f2bda526c52a3f91db0e38452249326",
+    "witness_sha256": "7471df0a12ebf1fbe7bc7911c93ed7069a6801e276ede48281c10d87085c0b73"
+  }
+]

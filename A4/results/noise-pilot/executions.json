@@ -1,0 +1,86 @@
+[
+  {
+    "condition": "los",
+    "run": 1,
+    "returncode": 0,
+    "wall_seconds": 0.4783173200000874,
+    "command": [
+      "/tmp/a4-channel-build-l9f0ora5/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--samples=257",
+      "--nlos=0",
+      "--output=A4/results/noise-pilot/los/snr-noiseless/run-01/correlation.csv",
+      "--noise=0",
+      "--snrDb=6",
+      "--noiseStream=100001"
+    ],
+    "validation_returncode": 0,
+    "snr_db": null,
+    "correlation_sha256": "849d8165bf134284eaa6ff2b754c82e32c13c458968f7e8273eecd04ec9c8726",
+    "witness_sha256": "46f6173c1d486c96b0535ac9257c42d74ba1dda82f66c3746a9ae96024508873"
+  },
+  {
+    "condition": "los",
+    "run": 1,
+    "returncode": 0,
+    "wall_seconds": 0.6866157090000797,
+    "command": [
+      "/tmp/a4-channel-build-l9f0ora5/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--samples=257",
+      "--nlos=0",
+      "--output=A4/results/noise-pilot/los/snr-1/run-01/correlation.csv",
+      "--noise=1",
+      "--snrDb=1",
+      "--noiseStream=100001"
+    ],
+    "validation_returncode": 0,
+    "snr_db": 1,
+    "correlation_sha256": "5b7fa4f33b0ba10f6323084149cfea50b4122d78377b7c264bb59f365d725eb0",
+    "witness_sha256": "1a2f27960e0aa23d835dc5171134b18f555843ff328f3b5640342ae2f3e5ea4a"
+  },
+  {
+    "condition": "los",
+    "run": 1,
+    "returncode": 0,
+    "wall_seconds": 0.693261935999999,
+    "command": [
+      "/tmp/a4-channel-build-l9f0ora5/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--samples=257",
+      "--nlos=0",
+      "--output=A4/results/noise-pilot/los/snr-6/run-01/correlation.csv",
+      "--noise=1",
+      "--snrDb=6",
+      "--noiseStream=100001"
+    ],
+    "validation_returncode": 0,
+    "snr_db": 6,
+    "correlation_sha256": "0fe05814e23d193fab2ecd225a9983af7a4e57626ea9c3754086cc2f24f7b802",
+    "witness_sha256": "059eab25aa0548999a4559b134f8e8f05d5a7dd19137c8d78f41cbc2a1033a4f"
+  },
+  {
+    "condition": "los",
+    "run": 1,
+    "returncode": 0,
+    "wall_seconds": 0.6783353529999658,
+    "command": [
+      "/tmp/a4-channel-build-l9f0ora5/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--samples=257",
+      "--nlos=0",
+      "--output=A4/results/noise-pilot/los/snr-11/run-01/correlation.csv",
+      "--noise=1",
+      "--snrDb=11",
+      "--noiseStream=100001"
+    ],
+    "validation_returncode": 0,
+    "snr_db": 11,
+    "correlation_sha256": "530f6eb3818781801876039e730cdbc98858f302a658bf3288fab9de34dbff8c",
+    "witness_sha256": "74e76fd035497148ed6b758ac6c5c6bba278cb6016900a394996bf6ebfa9fa07"
+  }
+]

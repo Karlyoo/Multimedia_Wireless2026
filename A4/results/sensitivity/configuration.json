@@ -1,0 +1,89 @@
+{
+  "profiles": {
+    "height-1.73": {
+      "samples": 4201,
+      "ue_x": 1.1,
+      "ue_y": -0.6,
+      "height_m": 1.73,
+      "bearing_degrees": 0
+    },
+    "height-3.0": {
+      "samples": 4201,
+      "ue_x": 1.1,
+      "ue_y": -0.6,
+      "height_m": 3.0,
+      "bearing_degrees": 0
+    },
+    "bearing-minus30": {
+      "samples": 4201,
+      "ue_x": 1.1,
+      "ue_y": -0.6,
+      "height_m": 2.5,
+      "bearing_degrees": -30
+    },
+    "bearing-plus30": {
+      "samples": 4201,
+      "ue_x": 1.1,
+      "ue_y": -0.6,
+      "height_m": 2.5,
+      "bearing_degrees": 30
+    }
+  },
+  "seed": 20261109,
+  "run_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "stream_start": 1,
+  "noise": false,
+  "scenario": "InH-OfficeMixed",
+  "condition": "LOS",
+  "speed_m_s": 0.1,
+  "snapshot_interval_s": 0.01,
+  "step_m": 0.001,
+  "frequency_hz": 3700000000.0,
+  "bs_array": [
+    4,
+    25
+  ],
+  "spacing_lambda": 0.5,
+  "tones": 100,
+  "tone_spacing_hz": 180000,
+  "bs_xy_m": [
+    0,
+    0
+  ],
+  "ue_height_m": 1.73,
+  "bs_downtilt_rad": 0,
+  "source_sha256": "a3132677bf512dae0f94df157437b060e2369a17c032e141c2d6754acddd4d9d",
+  "compile_command": [
+    "/usr/bin/g++-12",
+    "-B/usr/bin/",
+    "-std=c++23",
+    "-O2",
+    "-DNS3_ASSERT_ENABLE",
+    "-DNS3_LOG_ENABLE",
+    "-I/home/karl/projects/ns-3.48-nr/build/include",
+    "-I/usr/include/eigen3",
+    "/home/karl/mw2026/Multimedia_Wireless2026/A4/src/sensitivity-channel-correlation.cc",
+    "-L/home/karl/projects/ns-3.48-nr/build/lib",
+    "-Wl,-rpath,/home/karl/projects/ns-3.48-nr/build/lib",
+    "-Wl,-rpath-link,/usr/lib/x86_64-linux-gnu",
+    "-lns3.48-spectrum-default",
+    "-lns3.48-propagation-default",
+    "-lns3.48-mobility-default",
+    "-lns3.48-network-default",
+    "-lns3.48-antenna-default",
+    "-lns3.48-core-default",
+    "-o",
+    "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation"
+  ],
+  "compiler": "g++-12 (Ubuntu 12.3.0-1ubuntu1~22.04.3) 12.3.0",
+  "ns3_commit": "d2add90b452d600cfb4859baed8e9ea633519447",
+  "workers": 4,
+  "reference": "Existing geometry/paper-x-full runs, matching IDs only",
+  "purpose": "Exploratory one-factor-at-a-time height/bearing sensitivity; not parameter estimation"
+}

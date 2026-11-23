@@ -1,0 +1,66 @@
+{
+  "seed": 20261109,
+  "run_ids": [
+    1
+  ],
+  "stream_start": 1,
+  "samples": 257,
+  "simulated_seconds": 2.56,
+  "sample_interval_s": 0.01,
+  "speed_m_s": 0.1,
+  "step_m": 0.001,
+  "frequency_hz": 3700000000.0,
+  "tones": 100,
+  "tone_spacing_hz": 180000,
+  "bs_rows": 4,
+  "bs_columns": 25,
+  "bs_position_m": [
+    0,
+    0,
+    2.5
+  ],
+  "ue_initial_position_m": [
+    2,
+    2,
+    1.73
+  ],
+  "scenario": "InH-OfficeMixed",
+  "conditions": [
+    "los"
+  ],
+  "workers": 2,
+  "ns3_commit": "d2add90b452d600cfb4859baed8e9ea633519447",
+  "source_sha256": "a7311c21db7355961a3b50b9096d468b6b60eebb569094a2331cdcc13cafa007",
+  "compiler": "g++-12 (Ubuntu 12.3.0-1ubuntu1~22.04.3) 12.3.0",
+  "compile_command": [
+    "/usr/bin/g++-12",
+    "-B/usr/bin/",
+    "-std=c++23",
+    "-O2",
+    "-DNS3_ASSERT_ENABLE",
+    "-DNS3_LOG_ENABLE",
+    "-I/home/karl/projects/ns-3.48-nr/build/include",
+    "-I/usr/include/eigen3",
+    "/home/karl/mw2026/Multimedia_Wireless2026/A4/src/noisy-channel-correlation.cc",
+    "-L/home/karl/projects/ns-3.48-nr/build/lib",
+    "-Wl,-rpath,/home/karl/projects/ns-3.48-nr/build/lib",
+    "-Wl,-rpath-link,/usr/lib/x86_64-linux-gnu",
+    "-lns3.48-spectrum-default",
+    "-lns3.48-propagation-default",
+    "-lns3.48-mobility-default",
+    "-lns3.48-network-default",
+    "-lns3.48-antenna-default",
+    "-lns3.48-core-default",
+    "-o",
+    "/tmp/a4-channel-build-l9f0ora5/channel-correlation"
+  ],
+  "noise_stream": 100001,
+  "snr_db": [
+    null,
+    1,
+    6,
+    11
+  ],
+  "noise_model": "Independent circular complex Gaussian, before normalization; per-snapshot average signal power sets expected SNR; common channel and normal draws across SNRs.",
+  "exporter_sha256": "b13ae836cf8078401e2740d72c0104a9c2e093031369b3727f5bce2796ae2607"
+}

@@ -1,0 +1,21 @@
+{
+  "profile": "paper-x-full",
+  "run": 6,
+  "command": [
+    "/tmp/a4-geometry-build-d2w65_8w/channel-correlation",
+    "--seed=20261109",
+    "--run=6",
+    "--nlos=0",
+    "--samples=4201",
+    "--ueX=1.1",
+    "--ueY=-0.6",
+    "--headingDegrees=0",
+    "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/geometry/paper-x-full/run-06/correlation.csv"
+  ],
+  "returncode": 0,
+  "validation_returncode": 0,
+  "wall_seconds": 42.82969476399967,
+  "csv_sha256": "d2d5c656aa3d72913d94e848bfffce23a7ad9d669dbcc9c99480ea92cd45f90d",
+  "witness_sha256": "281b3501174e08b81b06e224194bb6ae5bc87895f7d1f652f82f6c74e9751ad3",
+  "reverse_sha256": "c6324d76b297161e502cba16029861fc50454c92b52ee9616607e8517d746aca"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "run": 1,
+    "path": "results/geometry/paper-x-full/run-01/correlation.csv",
+    "sha256": "c26cbda457340284fbc2e49e14b51ddd65a0fa297ceada8a2d949cf0d46bb597"
+  },
+  {
+    "run": 2,
+    "path": "results/geometry/paper-x-full/run-02/correlation.csv",
+    "sha256": "136f600907933c5de76796356ff92730a43b3417880b941513b15a98ed56c02a"
+  },
+  {
+    "run": 3,
+    "path": "results/geometry/paper-x-full/run-03/correlation.csv",
+    "sha256": "57761df4318423ec814d518aa299cba35c913ecd10c15a3a936cba5a0c0befeb"
+  },
+  {
+    "run": 4,
+    "path": "results/geometry/paper-x-full/run-04/correlation.csv",
+    "sha256": "ba3f7fb0924c5c9aa30a13b018719d764673dd3f3f9839a5ed5b6dde5dae5023"
+  },
+  {
+    "run": 5,
+    "path": "results/geometry/paper-x-full/run-05/correlation.csv",
+    "sha256": "7c94b73c47715ae989d9ac8d2dce705940132701856b109a7331dc03357ea929"
+  }
+]

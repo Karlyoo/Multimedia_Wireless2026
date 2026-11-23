@@ -1,0 +1,322 @@
+[
+  {
+    "condition": "los",
+    "run": 1,
+    "returncode": 0,
+    "wall_seconds": 11.98918176799998,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-01/correlation.csv"
+    ],
+    "correlation_sha256": "e64d4a157604d01a771399c8a9231d763392b079b7fdab552e200311aa40cc36",
+    "witness_sha256": "9eeaaf9dd92714e352f42041c23b25c0d65f089af12ceac635eb8ca20ba9883c"
+  },
+  {
+    "condition": "los",
+    "run": 2,
+    "returncode": 0,
+    "wall_seconds": 12.090395523999973,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=2",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-02/correlation.csv"
+    ],
+    "correlation_sha256": "3fc6e8d2c533986af598272fc723c1bc1aea1f1109b2bac64929a588628552b6",
+    "witness_sha256": "6af6f63f48bed58e27fd15e6402adf8ca1f0e279969d0d6accc54413b4489f23"
+  },
+  {
+    "condition": "los",
+    "run": 3,
+    "returncode": 0,
+    "wall_seconds": 15.843876963999946,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=3",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-03/correlation.csv"
+    ],
+    "correlation_sha256": "58a9e0a00f5d80070a89b3fbf1e6054f64d4fcb8b06463c21a1df693eb1ab0d8",
+    "witness_sha256": "7b4dac7ac6c2ec0ee39da0a370cc99a525d75f8ea6e1ec9fdae3e28b45ffa277"
+  },
+  {
+    "condition": "los",
+    "run": 4,
+    "returncode": 0,
+    "wall_seconds": 15.259669016999965,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=4",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-04/correlation.csv"
+    ],
+    "correlation_sha256": "6222b36cc5d54928a8f28f273201644a684fc6577af0015f6b415556b9413024",
+    "witness_sha256": "cdcd689e05ad4763bccbc7f41a4287e16cd794bad02b0fe782b02a664bf7de58"
+  },
+  {
+    "condition": "los",
+    "run": 5,
+    "returncode": 0,
+    "wall_seconds": 15.428286709999952,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=5",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-05/correlation.csv"
+    ],
+    "correlation_sha256": "66bce1bc5f57df79a36b64633a621863d57e9260601888eaa569c84e1873f802",
+    "witness_sha256": "120b794d5ce706e0ada72131c371a715776644488dec166191da7cbfeb8683ff"
+  },
+  {
+    "condition": "los",
+    "run": 6,
+    "returncode": 0,
+    "wall_seconds": 13.163927545999968,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=6",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-06/correlation.csv"
+    ],
+    "correlation_sha256": "2e6ec560fea53e3c581171efc39133b9250d9898f76560a6a7e90a6e28cb2372",
+    "witness_sha256": "0479643fe6836fffa6433c317be6338b159f7de0a859f16a59a0f18f74026a43"
+  },
+  {
+    "condition": "los",
+    "run": 7,
+    "returncode": 0,
+    "wall_seconds": 16.318069263999973,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=7",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-07/correlation.csv"
+    ],
+    "correlation_sha256": "2de153eaa65f604c9f4cf83ccdfa644b0f0a45d66a2a67d702f7d1491e394b42",
+    "witness_sha256": "63d7ba4615ca3e1394cc5a11f2de92e361ff4149cefc555edff6c7aaa9ecc9ad"
+  },
+  {
+    "condition": "los",
+    "run": 8,
+    "returncode": 0,
+    "wall_seconds": 14.541034021999963,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=8",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-08/correlation.csv"
+    ],
+    "correlation_sha256": "8df4c8a92414d1887e2fed67c284ac1bdc3c20f40c249123bac7f2ca95812ec9",
+    "witness_sha256": "cc3f1a3d85cafb351e85e3e08d738b2259c37a8b08d7df027e9fd65957b8e9ef"
+  },
+  {
+    "condition": "los",
+    "run": 9,
+    "returncode": 0,
+    "wall_seconds": 16.019828068000038,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=9",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-09/correlation.csv"
+    ],
+    "correlation_sha256": "26e9394722ba1264a9c32be7feb97da696012e46766c1cc82dccb4e197a62fda",
+    "witness_sha256": "065b6da7905474f4c613874facc932641e897c4360adbfa958ab78883a8a8078"
+  },
+  {
+    "condition": "los",
+    "run": 10,
+    "returncode": 0,
+    "wall_seconds": 16.48557356799995,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=10",
+      "--samples=4201",
+      "--nlos=0",
+      "--output=A4/results/full/los/run-10/correlation.csv"
+    ],
+    "correlation_sha256": "021382a88544e200e1764878367fc9b24f9858ff5e499ba0aa7794bcd3990f34",
+    "witness_sha256": "1af6e6f7128e513a5b1d85891130801083f842458d3936815c5f9de850f1e4ac"
+  },
+  {
+    "condition": "nlos",
+    "run": 1,
+    "returncode": 0,
+    "wall_seconds": 20.494993608000073,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-01/correlation.csv"
+    ],
+    "correlation_sha256": "c71a181583b8b987db1030625888210f888dd0a9434c393fc2209fe58c33b266",
+    "witness_sha256": "f3f39b6384a36b198a310df244380ddb2bdd045623799a61bea892cfa9833988"
+  },
+  {
+    "condition": "nlos",
+    "run": 2,
+    "returncode": 0,
+    "wall_seconds": 19.724770484000032,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=2",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-02/correlation.csv"
+    ],
+    "correlation_sha256": "73a21cbf379243de2a8c10473bae5a03e2d762e40df864366a65375fb4243e3b",
+    "witness_sha256": "b3eb8b1638e5a76489fbc88c07781e15ded05d468c847a5074b17917c91fcba9"
+  },
+  {
+    "condition": "nlos",
+    "run": 3,
+    "returncode": 0,
+    "wall_seconds": 19.78808445599998,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=3",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-03/correlation.csv"
+    ],
+    "correlation_sha256": "282fa4347402a9c8f6bc9385210458688c201d24124d69dcf970ed5807cc540b",
+    "witness_sha256": "cf7d1a1e77d517555f7b26eeb5dec927bd61939b19c07d8a89342efe9c853e18"
+  },
+  {
+    "condition": "nlos",
+    "run": 4,
+    "returncode": 0,
+    "wall_seconds": 20.19467032400007,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=4",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-04/correlation.csv"
+    ],
+    "correlation_sha256": "58e05f6613cb537821c52f3901fed2eb86d1e9904f6b0dcb84bf886d19d5601d",
+    "witness_sha256": "91d8a24dd5c10feec6f600124bca59aee35db4d205b56c9ca5db01d6818f3883"
+  },
+  {
+    "condition": "nlos",
+    "run": 5,
+    "returncode": 0,
+    "wall_seconds": 20.881543920000013,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=5",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-05/correlation.csv"
+    ],
+    "correlation_sha256": "1e3a170936e1012931a89e8e1a0e7f80c95ecd9332c7724adc276a5b63722c0b",
+    "witness_sha256": "d652893f8953100bd0e9a9dd16293141d9255921ca7d5fd604373bc07fa756ab"
+  },
+  {
+    "condition": "nlos",
+    "run": 6,
+    "returncode": 0,
+    "wall_seconds": 20.17252024700008,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=6",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-06/correlation.csv"
+    ],
+    "correlation_sha256": "a490d69771315b8044b905899eedaea22b7723d814af821594115c1adab211f0",
+    "witness_sha256": "6eced6caacf76b0e71078aa093ca321f827505153386e759d4c55559211a34f9"
+  },
+  {
+    "condition": "nlos",
+    "run": 7,
+    "returncode": 0,
+    "wall_seconds": 21.019340166999996,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=7",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-07/correlation.csv"
+    ],
+    "correlation_sha256": "d45128335e8040654baba33701ec73e3e0b74376cd8decdbfb1abc8ef9d04b13",
+    "witness_sha256": "c22581f43b18710e7b4bce86c933f010196fbe146d986a93e906e4746a92d032"
+  },
+  {
+    "condition": "nlos",
+    "run": 8,
+    "returncode": 0,
+    "wall_seconds": 21.086699354000075,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=8",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-08/correlation.csv"
+    ],
+    "correlation_sha256": "f118a468bfa96f2c629944df86c23fea0f3a7967385fe8e1714023ce52cb615f",
+    "witness_sha256": "1b833f1dbb7cbe7dc905bc4173cb6e5a6b795bfc8ccf05f214ca1da481a72684"
+  },
+  {
+    "condition": "nlos",
+    "run": 9,
+    "returncode": 0,
+    "wall_seconds": 20.402394819999927,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=9",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-09/correlation.csv"
+    ],
+    "correlation_sha256": "5a3621657037f12d13654de0b006f8416bd8c7d52a6bfcc5c6adae1ddc186eb1",
+    "witness_sha256": "a9835aa2c3c37cce4ba6a07da76368c67cf0f3e243af70ab4c029603cc33566c"
+  },
+  {
+    "condition": "nlos",
+    "run": 10,
+    "returncode": 0,
+    "wall_seconds": 19.852236039000104,
+    "command": [
+      "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+      "--seed=20261109",
+      "--run=10",
+      "--samples=4201",
+      "--nlos=1",
+      "--output=A4/results/full/nlos/run-10/correlation.csv"
+    ],
+    "correlation_sha256": "db90014ac0ccea438f2dd9b3c4f8827274d6b848099dfc0fba4dce32f38ac41d",
+    "witness_sha256": "90f8c0ddd188f0ba5d2608df57d3b9dbdbc36d890f9d09c0788fcbcf9010fe70"
+  }
+]

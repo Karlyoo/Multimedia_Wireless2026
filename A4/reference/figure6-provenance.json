@@ -1,0 +1,71 @@
+{
+  "doi": "10.1109/TMLCN.2023.3334712",
+  "source": "User-provided formal IEEE PDF",
+  "source_filename": "Deep-Learning-Based_High-Precision_Localization_With_Massive_MIMO.pdf",
+  "pdf_sha256": "9ff11015c1650b6d985911fa73b9c440c32dfa1a712072a3603bf628ac43baa2",
+  "pdf_page": 7,
+  "printed_page": 25,
+  "figure": 6,
+  "extract_command": [
+    "pdftoppm",
+    "-f",
+    "7",
+    "-l",
+    "7",
+    "-scale-to",
+    "1800",
+    "-x",
+    "90",
+    "-y",
+    "140",
+    "-W",
+    "540",
+    "-H",
+    "540",
+    "-png",
+    "-singlefile",
+    "/home/karl/Downloads/Deep-Learning-Based_High-Precision_Localization_With_Massive_MIMO.pdf",
+    "/home/karl/mw2026/Multimedia_Wireless2026/A4/reference/figure6-source"
+  ],
+  "position_A_source": {
+    "pdf_page": 6,
+    "printed_page": 24,
+    "figure": 5,
+    "image_object": "377 0",
+    "native_image_size_px": [
+      857,
+      605
+    ],
+    "scan_bounds_px": {
+      "left": 242,
+      "right": 722,
+      "top": 122,
+      "bottom": 483
+    },
+    "approximate_A_center_px": [
+      481,
+      269
+    ],
+    "region_size_m": [
+      4.2,
+      2.5
+    ],
+    "within_region_estimate_m": [
+      2.09125,
+      1.018005540166205
+    ],
+    "assumed_region_origin_m": [
+      1.1,
+      -0.6
+    ],
+    "rounded_simulated_A_m": [
+      3.19,
+      0.42,
+      1.73
+    ],
+    "note": "Manual schematic proportional estimate, not a surveyed point or precision claim. Face-plane and array-center assumptions inherited from the approved geometry study."
+  },
+  "paper_color_reference": "Relative power in dB; full measurement tensor/RF calibration unavailable. No absolute dB matching inferred.",
+  "comparison": "Side-by-side image; no numerical heatmap digitization or pixelwise matching.",
+  "accessed_date": "2026-11-23"
+}

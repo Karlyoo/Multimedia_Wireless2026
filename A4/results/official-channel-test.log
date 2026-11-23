@@ -1,0 +1,30 @@
+PASS three-gpp-channel 8.392 s
+  PASS Check the channel consistency feature for losCondition LOS, speed=30.000000 kmph, and freq=4.000000 GHz. 0.198 s
+  PASS Check the channel consistency feature for losCondition NLOS, speed=30.000000 kmph, and freq=4.000000 GHz. 0.279 s
+  PASS Check the channel consistency feature for losCondition LOS, speed=30.000000 kmph, and freq=30.000000 GHz. 0.196 s
+  PASS Check the channel consistency feature for losCondition NLOS, speed=30.000000 kmph, and freq=30.000000 GHz. 0.291 s
+  PASS Check the channel consistency feature for losCondition LOS, speed=10.000000 kmph, and freq=30.000000 GHz. 0.193 s
+  PASS Check the channel consistency feature for losCondition NLOS, speed=10.000000 kmph, and freq=30.000000 GHz. 0.275 s
+  PASS Check the channel consistency feature for losCondition LOS, speed=10.000000 kmph, and freq=4.000000 GHz. 0.190 s
+  PASS Check the channel consistency feature for losCondition NLOS, speed=10.000000 kmph, and freq=4.000000 GHz. 0.274 s
+  PASS Check the dimensions and the norm of the channel matrix 0.393 s
+  PASS Check the dimensions and the norm of the channel matrix 0.998 s
+  PASS Check the dimensions and the norm of the channel matrix 0.386 s
+  PASS Check the dimensions and the norm of the channel matrix 3.655 s
+  PASS Check the dimensions and the norm of the channel matrix 0.996 s
+  PASS Check if the channel realizations are correctly updated during the simulation 0.001 s
+  PASS Check if the channel realizations are correctly updated during the simulation 0.000 s
+  PASS Check if the channel realizations are correctly updated during the simulation 0.001 s
+  PASS Check if the channel realizations are correctly updated during the simulation 0.000 s
+  PASS Check if the channel realizations are correctly updated after antenna port changes during the simulation 0.010 s
+  PASS Test case for the ThreeGppSpectrumPropagationLossModel class 0.007 s
+  PASS Test case for the ThreeGppSpectrumPropagationLossModel class 0.007 s
+  PASS Test case for the ThreeGppSpectrumPropagationLossModel class 0.002 s
+  PASS Test case for the ThreeGppSpectrumPropagationLossModel class 0.001 s
+  PASS Check long term channel matrix generation when multiple ports at TX and RX are being used. 0.003 s
+  PASS Test MIMO using dual polarization.Face-to-face. 0 and 0 pol. slant angles. 0.000 s
+  PASS Test MIMO using dual polarization.Face-to-face. 30 and 0 pol. slant angles. 0.000 s
+  PASS Test MIMO using dual polarization.Face-to-face. 45 and 0 pol. slant angles. 0.000 s
+  PASS Test MIMO using dual polarization.Face-to-face. 90 and 0 pol. slant angles. 0.000 s
+  PASS Test MIMO using dual polarization.Face-to-face. Different positions. Different bearing angles. 0 and 0 pol. slant angles. 0.000 s
+  PASS Test MIMO using dual polarization.Not face-to-face. Different heights. 0 and 0 pol. slant angles. 0.000 s

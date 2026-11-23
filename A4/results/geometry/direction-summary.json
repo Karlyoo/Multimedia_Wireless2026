@@ -1,0 +1,7 @@
+{
+  "final_lag_lambda": 1.998,
+  "y_minus_x_final_mean": -0.3646591209398883,
+  "y_minus_x_final_sd": 0.11240750119994923,
+  "y_lower_final_count": 10,
+  "mean_absolute_difference_between_mean_curves": 0.3287987957345372
+}

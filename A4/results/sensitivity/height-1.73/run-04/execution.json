@@ -1,0 +1,21 @@
+{
+  "profile": "height-1.73",
+  "run": 4,
+  "command": [
+    "/tmp/a4-sensitivity-build-572fcxhp/channel-correlation",
+    "--seed=20261109",
+    "--run=4",
+    "--nlos=0",
+    "--samples=4201",
+    "--ueX=1.1",
+    "--ueY=-0.6",
+    "--bsHeight=1.73",
+    "--bearingDegrees=0",
+    "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity/height-1.73/run-04/correlation.csv"
+  ],
+  "returncode": 0,
+  "validation_returncode": 0,
+  "wall_seconds": 25.34786772500047,
+  "csv_sha256": "9b3c3999df359bfc5afcf13132b9d76c2afe8ddc92879c4b921ce5f2607eac90",
+  "witness_sha256": "09af710d6b4c5f458f3298b7586b4bf0528f76a3410a5bfd1dcafa917eadc1e4"
+}

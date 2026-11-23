@@ -1,0 +1,33 @@
+{
+  "source_url": "https://lucris.lub.lu.se/ws/portalfiles/portal/165039395/TMLCN.pdf",
+  "doi": "10.1109/TMLCN.2023.3334712",
+  "source_version": "University-hosted accepted manuscript / post-print",
+  "pdf_sha256": "002bf3314cb3b304dad8fe1ab824b01452dbf5e1bb069d75f8acce87a45a0354",
+  "pdf_page": 9,
+  "printed_page": 7,
+  "figure": 7,
+  "point_count": 33,
+  "method": "Extract blue dashed polyline vertices from pdftocairo SVG; linear tick calibration.",
+  "curve_path": {
+    "style": "fill:none;stroke-width:10.978;stroke-linecap:butt;stroke-linejoin:bevel;stroke:rgb(0%,0%,100%);stroke-opacity:1;stroke-dasharray:32.9299,32.9299;stroke-miterlimit:10;",
+    "d": "M 309.620661 1453.897954 L 361.596183 1340.857917 L 413.571704 1173.565919 L 465.547225 943.167461 L 517.522746 719.591323 L 569.498267 597.116162 L 621.473788 632.570453 L 673.486918 755.989126 L 725.462439 873.020947 L 777.43796 875.996639 L 829.413481 780.701892 L 881.389003 608.474599 L 933.402133 413.167542 L 985.377654 299.546882 L 1037.353175 369.54824 L 1089.328696 537.529728 L 1141.304217 685.624878 L 1193.317347 756.932638 L 1245.292868 735.558455 L 1297.268389 636.489658 L 1349.24391 504.252773 L 1401.219431 414.836833 L 1453.194953 441.545491 L 1505.208083 590.511575 L 1557.183604 716.470474 L 1609.159125 783.967896 L 1661.134646 771.665947 L 1713.110167 686.532101 L 1765.085688 565.798809 L 1817.098818 473.624911 L 1869.074339 477.544116 L 1921.04986 575.052488 L 1973.025382 698.616317 ",
+    "transform": "matrix(0.103865,0,0,-0.107643,63.185,530.041)"
+  },
+  "calibration": {
+    "x0": 309.620661,
+    "x2": 1973.025382,
+    "y02": 177.870077,
+    "y1": 1453.897954
+  },
+  "original_plot_xlim": [
+    0,
+    2.187524022303169
+  ],
+  "original_plot_ylim": [
+    0.2,
+    1
+  ],
+  "precision_note": "Vector-path recovery, not experimental raw data. Conservative coordinate-reporting tolerance: 0.0001 on each axis; not a statistical confidence interval.",
+  "accessed_local_date": "2026-11-21",
+  "figure_note": "Figure numbering and equation checked against published-author full text. Numerical extraction uses the university post-print; publisher-version numerical identity was not independently established."
+}

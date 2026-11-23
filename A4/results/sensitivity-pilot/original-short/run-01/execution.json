@@ -1,0 +1,21 @@
+{
+  "profile": "original-short",
+  "run": 1,
+  "command": [
+    "/tmp/a4-sensitivity-build-244qaq7r/channel-correlation",
+    "--seed=20261109",
+    "--run=1",
+    "--nlos=0",
+    "--samples=257",
+    "--ueX=2",
+    "--ueY=2",
+    "--bsHeight=2.5",
+    "--bearingDegrees=0",
+    "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity-pilot/original-short/run-01/correlation.csv"
+  ],
+  "returncode": 0,
+  "validation_returncode": 0,
+  "wall_seconds": 0.9142264080001041,
+  "csv_sha256": "849d8165bf134284eaa6ff2b754c82e32c13c458968f7e8273eecd04ec9c8726",
+  "witness_sha256": "b2f78ed9797d66abb3ce5a8ed7f77b8cfca3477b608a19a822773877b42de004"
+}

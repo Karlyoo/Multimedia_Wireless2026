@@ -1,0 +1,16 @@
+{
+  "condition": "nlos",
+  "run": 8,
+  "returncode": 0,
+  "wall_seconds": 21.086699354000075,
+  "command": [
+    "/tmp/a4-channel-build-2o6e2vok/channel-correlation",
+    "--seed=20261109",
+    "--run=8",
+    "--samples=4201",
+    "--nlos=1",
+    "--output=A4/results/full/nlos/run-08/correlation.csv"
+  ],
+  "correlation_sha256": "f118a468bfa96f2c629944df86c23fea0f3a7967385fe8e1714023ce52cb615f",
+  "witness_sha256": "1b833f1dbb7cbe7dc905bc4173cb6e5a6b795bfc8ccf05f214ca1da481a72684"
+}

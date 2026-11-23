@@ -1,0 +1,65 @@
+[
+  {
+    "profile": "original-short",
+    "run": 1,
+    "command": [
+      "/tmp/a4-sensitivity-build-244qaq7r/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--nlos=0",
+      "--samples=257",
+      "--ueX=2",
+      "--ueY=2",
+      "--bsHeight=2.5",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity-pilot/original-short/run-01/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 0.9142264080001041,
+    "csv_sha256": "849d8165bf134284eaa6ff2b754c82e32c13c458968f7e8273eecd04ec9c8726",
+    "witness_sha256": "b2f78ed9797d66abb3ce5a8ed7f77b8cfca3477b608a19a822773877b42de004"
+  },
+  {
+    "profile": "reference-full",
+    "run": 1,
+    "command": [
+      "/tmp/a4-sensitivity-build-244qaq7r/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--nlos=0",
+      "--samples=4201",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=0",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity-pilot/reference-full/run-01/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 19.456821785000102,
+    "csv_sha256": "c26cbda457340284fbc2e49e14b51ddd65a0fa297ceada8a2d949cf0d46bb597",
+    "witness_sha256": "4e51cccce865da9b7b43360ae34b4a1930b0a4477018eb9b817da71b3d1f84be"
+  },
+  {
+    "profile": "bearing-check",
+    "run": 1,
+    "command": [
+      "/tmp/a4-sensitivity-build-244qaq7r/channel-correlation",
+      "--seed=20261109",
+      "--run=1",
+      "--nlos=0",
+      "--samples=257",
+      "--ueX=1.1",
+      "--ueY=-0.6",
+      "--bsHeight=2.5",
+      "--bearingDegrees=-30",
+      "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/sensitivity-pilot/bearing-check/run-01/correlation.csv"
+    ],
+    "returncode": 0,
+    "validation_returncode": 0,
+    "wall_seconds": 0.9193516840005032,
+    "csv_sha256": "2569455bf7fd0eeb22bc82bf35793517e1cd7e8b8d9326c5ff6db38c83007327",
+    "witness_sha256": "e7c8f493d0bb4641c9d1db355fc725196049be2ec5ba40fcf6a1e763a36d3ec4"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "profile": "heading-y-check",
+  "run": 1,
+  "command": [
+    "/tmp/a4-geometry-build-d6g6vpkr/channel-correlation",
+    "--seed=20261109",
+    "--run=1",
+    "--nlos=0",
+    "--samples=257",
+    "--ueX=1.1",
+    "--ueY=-0.6",
+    "--headingDegrees=90",
+    "--output=A4/results/geometry-repeat/heading-y-check/run-01/correlation.csv"
+  ],
+  "returncode": 0,
+  "validation_returncode": 0,
+  "wall_seconds": 1.7059934379999504,
+  "csv_sha256": "da47e10a833d31df1d113b4bd0731d8214f02641d6d25b78d1b019b813ab5bf2",
+  "witness_sha256": "59bbcd1ba7ba2197c1312f7be6850eb631f65a95975ee59cddd5a8e30645a061",
+  "reverse_sha256": "f9121d8920c27d88b63a39c2343b613eb6c2a5906afbf63516cc16c7f2750268"
+}

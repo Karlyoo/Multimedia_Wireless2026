@@ -1,0 +1,71 @@
+{
+  "profiles": {
+    "baseline-regression": {
+      "samples": 257,
+      "ue_x": 2,
+      "ue_y": 2,
+      "heading_degrees": 0
+    },
+    "heading-y-check": {
+      "samples": 257,
+      "ue_x": 1.1,
+      "ue_y": -0.6,
+      "heading_degrees": 90
+    }
+  },
+  "seed": 20261109,
+  "run_ids": [
+    1
+  ],
+  "stream_start": 1,
+  "speed_m_s": 0.1,
+  "step_m": 0.001,
+  "snapshot_interval_s": 0.01,
+  "bs_position_m": [
+    0,
+    0,
+    2.5
+  ],
+  "ue_height_m": 1.73,
+  "noise": false,
+  "bs_array": [
+    4,
+    25
+  ],
+  "spacing_lambda": 0.5,
+  "frequency_hz": 3700000000.0,
+  "tones": 100,
+  "tone_spacing_hz": 180000,
+  "scenario": "InH-OfficeMixed",
+  "condition": "LOS",
+  "bs_bearing_rad": 0,
+  "bs_downtilt_rad": 0,
+  "update_period_s": 0.005,
+  "geometry_note": "Figure-5-aligned approximation: inferred lateral phase-center offset and face-plane convention; BS height remains assumed.",
+  "source_sha256": "d31799cc1f435429b3b141113edf7723f7f62ce9812c4a7586de8a55a041d16a",
+  "compiler": "g++-12 (Ubuntu 12.3.0-1ubuntu1~22.04.3) 12.3.0",
+  "ns3_commit": "d2add90b452d600cfb4859baed8e9ea633519447",
+  "workers": 2,
+  "compile_command": [
+    "/usr/bin/g++-12",
+    "-B/usr/bin/",
+    "-std=c++23",
+    "-O2",
+    "-DNS3_ASSERT_ENABLE",
+    "-DNS3_LOG_ENABLE",
+    "-I/home/karl/projects/ns-3.48-nr/build/include",
+    "-I/usr/include/eigen3",
+    "/home/karl/mw2026/Multimedia_Wireless2026/A4/src/geometry-channel-correlation.cc",
+    "-L/home/karl/projects/ns-3.48-nr/build/lib",
+    "-Wl,-rpath,/home/karl/projects/ns-3.48-nr/build/lib",
+    "-Wl,-rpath-link,/usr/lib/x86_64-linux-gnu",
+    "-lns3.48-spectrum-default",
+    "-lns3.48-propagation-default",
+    "-lns3.48-mobility-default",
+    "-lns3.48-network-default",
+    "-lns3.48-antenna-default",
+    "-lns3.48-core-default",
+    "-o",
+    "/tmp/a4-geometry-build-y4b_dhu4/channel-correlation"
+  ]
+}

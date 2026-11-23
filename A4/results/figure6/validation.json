@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "channel_runs": 10,
+  "repeat_runs": 1,
+  "spectrum_checks": 11,
+  "complex_entries_per_snapshot": 10000,
+  "distinct_channel_hashes": 10,
+  "repeat_channel_and_cluster_csvs_identical": true,
+  "max_direct_reconstruction_error": 0,
+  "max_fft_roundtrip_error": 1.831026719408895e-15,
+  "max_parseval_relative_error": 2.7675240444719514e-16,
+  "native_delay_bin_ns": 55.55555555555556,
+  "unambiguous_delay_us": 5.555555555555556
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "full_runs": 30,
+  "spectrum_cross_checks": 90,
+  "total_lag_reversal_checks": 4890,
+  "max_conjugate_error": 6.696173638557536e-13,
+  "max_magnitude_error": 6.691314169415818e-13,
+  "exact_baseline_pilot_match": true,
+  "repeated_pilot_profiles": 2,
+  "matching_initial_direction_channels": 10,
+  "matching_full_path_prefixes": 10
+}

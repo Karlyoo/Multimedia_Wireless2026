@@ -1,0 +1,71 @@
+{
+  "seed": 20261109,
+  "run_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "stream_start": 1,
+  "source_sha256": "def5663d669bce707e364da8009f0e33ded00744bde092cd9061efee8a36c36c",
+  "compile_command": [
+    "/usr/bin/g++-12",
+    "-B/usr/bin/",
+    "-std=c++23",
+    "-O2",
+    "-DNS3_ASSERT_ENABLE",
+    "-DNS3_LOG_ENABLE",
+    "-I/home/karl/projects/ns-3.48-nr/build/include",
+    "-I/usr/include/eigen3",
+    "/home/karl/mw2026/Multimedia_Wireless2026/A4/src/figure6-channel.cc",
+    "-L/home/karl/projects/ns-3.48-nr/build/lib",
+    "-Wl,-rpath,/home/karl/projects/ns-3.48-nr/build/lib",
+    "-Wl,-rpath-link,/usr/lib/x86_64-linux-gnu",
+    "-lns3.48-spectrum-default",
+    "-lns3.48-propagation-default",
+    "-lns3.48-mobility-default",
+    "-lns3.48-network-default",
+    "-lns3.48-antenna-default",
+    "-lns3.48-core-default",
+    "-o",
+    "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel"
+  ],
+  "ns3_commit": "d2add90b452d600cfb4859baed8e9ea633519447",
+  "compiler": "g++-12 (Ubuntu 12.3.0-1ubuntu1~22.04.3) 12.3.0",
+  "ue_position_m": [
+    3.19,
+    0.42,
+    1.73
+  ],
+  "bs_position_m": [
+    0,
+    0,
+    2.5
+  ],
+  "position_note": "Schematic Figure 5 point-A estimate; not surveyed original coordinates.",
+  "stationary": true,
+  "observation_time_s": 0,
+  "noise": false,
+  "condition": "LOS",
+  "scenario": "InH-OfficeMixed",
+  "carrier_hz": 3700000000.0,
+  "tones": 100,
+  "tone_spacing_hz": 180000,
+  "bs_array": [
+    4,
+    25
+  ],
+  "antenna_spacing_lambda": 0.5,
+  "bs_bearing_rad": 0,
+  "bs_downtilt_rad": 0,
+  "delay_bin_s": 5.5555555555555555e-08,
+  "delay_period_s": 5.555555555555556e-06,
+  "display_run": 1,
+  "display_normalization": "Each map: 10 log10(power / global map peak); no per-antenna normalization."
+}

@@ -1,0 +1,14 @@
+{
+  "run": 2,
+  "repeat": false,
+  "returncode": 0,
+  "wall_seconds": 0.02265039500343846,
+  "command": [
+    "/tmp/a4-figure6-build-1k3xcg8f/figure6-channel",
+    "--seed=20261109",
+    "--run=2",
+    "--output=/home/karl/mw2026/Multimedia_Wireless2026/A4/results/figure6/run-02/channel.csv"
+  ],
+  "channel_sha256": "8cbe1d994ef9d15adc3da230bea45e4a24612ed0b666b92edcc284a912e89a7c",
+  "cluster_sha256": "ff9f199087367b8bcbd502a354cf1886ff3285b0d121a1819d962e49d295f4c9"
+}
